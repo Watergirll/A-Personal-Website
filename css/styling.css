@@ -1,0 +1,62 @@
+/* selectori*/
+
+html {
+    font-size: 17px;
+}
+
+body {
+    background-color: rgb(225, 210, 249);
+    padding: 1.5rem;
+    margin: 0;
+}
+
+/* box model:
+
+width 
+height
+padding
+border
+margin
+
+top bottom left right (ordinea ceasului)
+*/
+
+header > h1 {
+    font-family: "Madimi One", sans-serif;
+    color:rgb(114, 230, 191);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    font-style: italic;
+}
+
+h1 > span {
+    color:blueviolet;
+    text-transform: uppercase;
+
+}
+
+#acasa{
+   /* background-image: url(https://pngimg.com/d/strawberry_PNG2636.png);*/
+
+   padding-top:150px;
+   padding-bottom: 150px;
+   text-align: center;
+   background-image: url("../resurse/capsuni.png");
+   
+
+}
+
+#acasa > a {
+    font-size: 1.5rem;
+    color: white;
+    background: black;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+#despre_mine > img {
+    opacity: 0.75;
+    height: 200px;
+    
+}
